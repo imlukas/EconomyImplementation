@@ -1,0 +1,27 @@
+messages:
+  use-prefix: true # NOTE: this does not disable %prefix% -- Messages in a list of messages will not have prefix by default. You need to use the %prefix%.
+  prefix: "&e&l[OrbitalEconomy]" # prefix to appear besides the messages, use %prefix% to force a prefix onto a message
+  arrow: "->" # arrow to appear before the messages [Withdrawer] >> This is a message
+  actionbar:
+    enabled: true
+
+  global:
+    not-player: 'This command can only be used by a player'
+    no-permission: '&cYou do not have permission to do this'
+    player-not-found: 'Player(s) not found'
+    feature-on: '&7%feature% is now &aon'
+    feature-off: '&7%feature% is now &coff'
+    reload: '&7Reloaded plugin configs'
+
+  economy:
+    invalid-args: '&cInvalid arguments'
+    cannot-self: '&cYou cannot do this to yourself'
+    not-enough-money: '&c%player% doesn''t have enough money'
+    cooldown: '&cThis command is in cooldown!'
+    bal-other: '&7%player% has &a%balance%$.'
+    bal-self: '&7You have &a%balance%$.'
+    give: '&7You gave &a%amount% &7to &a%player%.'
+    received: '&7You received &a%amount% &7from &a%player%.'
+    take: '&7You took &a%amount% &7from &a%player%.'
+    set: '&7You set &a%player%''s &7balance to &a%amount%.'
+    earn: '&7You earned &a%amount%$. &7Your balance is now &a%balance%$.'

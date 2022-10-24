@@ -1,0 +1,14 @@
+name: OrbitalEconomy
+version: '${version}'
+main: me.imlukas.orbitaleconomy.OrbitalEconomy
+api-version: 1.19
+depend:
+  - Vault
+commands:
+  orbitaleco:
+    aliases:
+      - oe
+  money:
+    aliases:
+      - bal
+      - balance
